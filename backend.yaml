@@ -16,8 +16,7 @@ spec:
     spec:
       containers:
       - name: flask-backend
-        image: backend:latest
-        imagePullPolicy: Never
+        image: vijaygawate/k8s-backend
         ports:
         - containerPort: 5000
         env:
