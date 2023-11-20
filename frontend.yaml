@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: react-frontend
-        image: vijaygawate/k8s-frontend
+        image: vijaygawate/k8s-frontend:49b42b4a795c68ed91a5a889910b576038b75cc4
         ports:
         - containerPort: 3000
 ---
